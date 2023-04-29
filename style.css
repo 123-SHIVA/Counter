@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ height: 100vh;
+ /* display: flex; */
+ /* justify-content: center;
+ align-items: center; */
+}
+.main{
+    /* text-align: center; */
+    /* margin-top:25%; */
+    /* margin-bottom: 0; */
+    display: inline;
+    border: 2px solid black;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+    gap: 30px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.reset{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: bold;
+}
+
+#display{
+    border: 1px solid black;
+    width: 30px;
+}
+
+#increament{
+    font-weight: bold;
+}
+#decreament{
+    font-weight: bold;
+}
